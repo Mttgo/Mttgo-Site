@@ -9,14 +9,14 @@ type Presentation = {
   description: string;
   socials: Social[];
   profile?: string;
+  emojiImage?: string; // New field for the emoji image source
 };
 
 const presentation: Presentation = {
-  mail: "maxencewolff.pro@gmail.com",
-  title: "Hi, I’m Maxence 👋",
+  mail: "mattgarcoli@gmail.com",
+  title: "Hi, I am Matteo 👋",
   // profile: "/profile.webp",
-  description:
-    "Bonjour, i'm a *french frontend developer* with over *3 years* of web experience. I am currently working with *NextJS and Typescript*. Outside of work I complete my pokemon card collection and learning TypeScript.",
+  description: "Geek and self-proclaimed web developer",
   socials: [
     {
       label: "X",
@@ -31,6 +31,7 @@ const presentation: Presentation = {
       link: "https://github.com/MaeWolff",
     },
   ],
+  emojiImage: "/workspaces/asdfgh/public/cc8e496f-ae5f-453d-87a3-c96edc002c2e.webp", // Add the path to your emoji image here
 };
 
 export default presentation;
