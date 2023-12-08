@@ -31,7 +31,7 @@ const presentation: Presentation = {
       link: "https://github.com/MaeWolff",
     },
   ],
-  emojiImage: "/workspaces/asdfgh/public/cc8e496f-ae5f-453d-87a3-c96edc002c2e.webp", // Add the path to your emoji image here
+  emojiImage: "/workspaces/asdfgh/public/dffce0ce-50d1-4a75-b971-573775261528.jpg", // Add the path to your emoji image here
 };
 
 export default presentation;
