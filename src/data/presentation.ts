@@ -9,7 +9,6 @@ type Presentation = {
   description: string;
   socials: Social[];
   profile?: string;
-  image?: string; // New field for the image source
 };
 
 const presentation: Presentation = {
@@ -31,7 +30,6 @@ const presentation: Presentation = {
       link: "https://github.com/MaeWolff",
     },
   ],
-  image: "/workspaces/asdfgh/public/Emoji.jpg", // Add the path to your image here
 };
 
 export default presentation;
