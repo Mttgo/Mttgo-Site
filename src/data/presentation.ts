@@ -9,7 +9,7 @@ type Presentation = {
   description: string;
   socials: Social[];
   profile?: string;
-  emojiImage?: string; // New field for the emoji image source
+  image?: string; // New field for the image source
 };
 
 const presentation: Presentation = {
@@ -31,7 +31,7 @@ const presentation: Presentation = {
       link: "https://github.com/MaeWolff",
     },
   ],
-  emojiImage: "/workspaces/asdfgh/public/dffce0ce-50d1-4a75-b971-573775261528.jpg", // Add the path to your emoji image here
+  image: "/workspaces/asdfgh/public/Emoji.jpg", // Add the path to your image here
 };
 
 export default presentation;
