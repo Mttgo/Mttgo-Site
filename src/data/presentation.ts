@@ -1,4 +1,5 @@
-import meImage from 'public/me.webp'
+import React from 'react';
+import meImage from './public/me.webp';
 
 type Social = {
   label: string;
@@ -34,4 +35,18 @@ const presentation: Presentation = {
   ],
 };
 
-export default presentation;
+const YourComponent: React.FC = () => {
+  return (
+    <div>
+      {/* Other content */}
+      <img
+        src={presentation.profile}
+        alt="Matteo's Image"
+        style={{ width: '100%', height: 'auto', borderRadius: '0', border: 'none' }}
+      />
+      {/* Other content */}
+    </div>
+  );
+};
+
+export default YourComponent;
