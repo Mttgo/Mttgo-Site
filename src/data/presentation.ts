@@ -1,3 +1,5 @@
+import meImage from 'public/me.webp'
+
 type Social = {
   label: string;
   link: string;
@@ -14,7 +16,7 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "mattgarcoli@gmail.com",
   title: "Hi, I am Matteo 👋",
-  profile: "public/me.webp",
+  profile: meImage,
   description: "Geek and self-proclaimed web developer",
   socials: [
     {
