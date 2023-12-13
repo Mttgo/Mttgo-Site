@@ -25,7 +25,7 @@ const presentation: Presentation = {
     },
     {
       label: "Bento",
-      link: "https://bento.me/m-wolff",
+      link: "https://http.cat/status/501",
     },
     {
       label: "Github",
