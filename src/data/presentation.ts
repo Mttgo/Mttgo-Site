@@ -10,7 +10,7 @@ type Presentation = {
   title: string;
   description: string;
   socials: Social[];
-  profile?: string;
+  profile?: typeof meImage;
 };
 
 const presentation: Presentation = {
@@ -21,15 +21,19 @@ const presentation: Presentation = {
   socials: [
     {
       label: "X",
-      link: "https://twitter.com/itsstormzz_",
+      link: "https://twitter.com/mttngo",
     },
     {
       label: "Bento",
-      link: "https://http.cat/status/501",
+      link: "https://bento.me/mttgo",
     },
     {
       label: "Github",
-      link: "https://github.com/MaeWolff",
+      link: "https://github.com/Mttgo",
+    },
+    {
+      label: "BMAC",
+      link: "https://www.buymeacoffee.com/mttgo",
     },
   ],
 };
